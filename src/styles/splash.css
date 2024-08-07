@@ -1,0 +1,38 @@
+.splash{
+    background-color: #172331;
+    
+    
+}
+.splash_content  {
+    height:  695px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.splash_content h2{
+    margin: 0 auto;
+    margin-bottom: 150px;
+    font-size: 34px;
+    color: white;
+    
+}
+.splash_content h2 span{
+    display: block;
+    text-align: center;
+    color:rgb(68, 11, 123);
+
+}
+.splash_content button{
+    padding: 10px 45px; 
+    border:none ;
+    border-radius: 10px;
+    background-color:rgb(99, 51, 231);
+
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+
+}

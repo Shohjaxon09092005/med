@@ -1,0 +1,277 @@
+.sign_top {
+  background-image: url('../images/register2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 45%;
+
+}
+
+.sign_bottom {
+  background-image: url('../images/register3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 46%;
+}
+
+.sign_top h1 {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.sign__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.sign__content h2 {
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.sign_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sign_form label {
+  font-weight: 800;
+  opacity: 0.5;
+
+
+}
+
+.sign_form button {
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #555fd2;
+}
+
+.sign_input {
+  padding: 12px 0 12px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f3f4f8;
+}
+
+.sign_input::placeholder {
+  font-weight: 800;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.signIn .sign_input::placeholder {
+  font-size: 15px;
+}
+
+.signIn .sign_check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signIn .sign_check_cont {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.signIn .sign_check p {
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.signIn .sign_check a {
+  font-weight: 800;
+  font-size: 18px;
+  opacity: 0.6;
+  color: #555fd2;
+}
+
+.sign_after {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sign_after div {
+  width: 45%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.212);
+}
+
+.sign_after p {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  opacity: 0.4;
+}
+
+.sign_logo {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.sign__content {
+  position: relative;
+}
+
+.sign__content h1 {
+  position: absolute;
+  top: -150px;
+  right: 10%;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.9;
+  color: white;
+}
+
+.signIn .sign__content h1 {
+  text-align: center;
+  right: 30%;
+
+}
+
+.signIn .sign__content h2 {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.signIn .sign__content span {
+  color: #555fd2;
+  font-size: 20px;
+}
+
+.signIn .sign_bottom_content span {
+  font-size: 16px;
+  color: white;
+}
+
+.signIn .sign_bottom_content {
+  left: 5%;
+  bottom: -40%;
+  text-align: end;
+}
+
+.sign_bottom_content {
+  position: absolute;
+  bottom: -50%;
+  left: 10%;
+  color: white;
+
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.9;
+  text-align: center;
+
+}
+.sign_form button a{
+  color: white;
+
+}
+.sign_bottom_content a {
+  color: white;
+  padding-left: 20px;
+}
+
+@media(max-width:600px) {
+  .sign_top {
+    background-image: url('../images/register2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 46%;
+
+  }
+  .signIn .sign_bottom_content span {
+    font-size: 16px;
+    color: white;
+  }
+  .sign_bottom {
+
+    padding-top: 45%;
+
+  }
+
+  .sign__content h1 {
+    color: white;
+  }
+
+  .sign_bottom_content {
+    color: white;
+  }
+
+  .sign_bottom_content {
+    position: absolute;
+    bottom: -45%;
+    left: 0;
+
+    font-weight: 800;
+    font-size: 15px;
+
+  }
+
+  .sign_bottom_content a {
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+@media(max-width:340px) {
+  .sign_bottom_content {
+    bottom: -40%;
+    left: -15%;
+  }
+.signIn .sign_bottom_content {
+  left: 0;
+  bottom: -30%;
+  text-align: end;
+}
+
+}
+@media(max-width:420px){
+
+  .signIn .sign_input::placeholder {
+    font-size: 13px;
+  }
+}
+@media(max-width:370px){
+
+  .signIn .sign_input::placeholder {
+    font-size: 12px;
+  }
+}
+@media(max-width:350px){
+
+  .signIn .sign_input::placeholder {
+    font-size: 10.5px;
+  }
+}
